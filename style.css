@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background: url(images.jpeg);
+}
+.warrper{
+    width: 90%;
+    height: 525px;
+    background: transparent;
+    margin: auto;
+    margin-top: 37px;
+    box-shadow: 0 4px 20px;
+    border-radius: 10px;
+}
+.warrper h2{
+     color: white;
+     margin-left: 30px;
+     margin-top: 15px;
+     font-size: 30px;
+     cursor: pointer;
+     position: fixed;
+}
+.warrper nav ul{
+     display: flex;
+     justify-content: flex-end;
+     margin-right: 30px;
+     gap: 13px;
+}
+.warrper nav ul li{
+    margin-top: 22px;
+    font-size: 18px;
+    font-weight: 200;
+}
+.warrper nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.warrper nav ul li a:hover{
+    text-decoration: underline white;
+    color: yellowgreen;
+}
+.info-text{
+    padding: 0 500px 50px 60px;
+    margin-top: 130px;
+    pointer-events: none;
+ }
+.info-text h1{
+    color: white;
+    font-weight: bold;
+ }
+.info-text p{
+    color: white;
+    font-size: 20px;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+.btn-social-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-download{
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 55px;
+}
+.social-icons{
+    display: flex;
+    gap: 15px;
+}
+.social-icons a img{
+    width: 30px;
+    height: 30px;
+    background: white;
+    border-radius: 50%;
+}
+.social-icons a img:hover{
+    color: white;
+    background: rgb(6, 42, 206);
+    border-radius: 50%;  
+}
+.profile-section{
+    margin-left: 770px;
+    margin-top: -300px;
+}
+.profile-pic{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border: 8px solid #4e1e5d;
+    border-radius: 50%;
+    animation: rotateBorder 5s linear infinite;
+}
+ /*@keyframes rotateBorder{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+ }
